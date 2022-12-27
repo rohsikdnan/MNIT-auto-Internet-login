@@ -4,4 +4,7 @@ let username = document.querySelector("input[name = auth_user]"),
 
 username.value = '202xxxxxxxx';//id
 password.value = 'xxxxx';//password
-btn.click();
+
+setTimeout(() => {
+    btn.click();
+}, 1000);
